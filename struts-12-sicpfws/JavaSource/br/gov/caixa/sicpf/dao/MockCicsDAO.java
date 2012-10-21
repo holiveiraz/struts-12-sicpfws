@@ -1,4 +1,4 @@
-package br.gov.caixa.sicpf.model.dao;
+package br.gov.caixa.sicpf.dao;
 
 import java.util.Arrays;
 

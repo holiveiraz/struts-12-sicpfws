@@ -1,4 +1,4 @@
-package br.gov.caixa.sicpf.model.dao;
+package br.gov.caixa.sicpf.dao;
 
 import br.gov.caixa.psc.connector.client.ClientFactory;
 import br.gov.caixa.psc.connector.client.JConnectorClient;
@@ -11,8 +11,8 @@ import br.gov.caixa.psc.connector.model.pscpslnk.PSCAreaDeEntrada;
 import br.gov.caixa.psc.connector.model.pscpslnk.PSCAreaDeSaida;
 import br.gov.caixa.psc.connector.model.types.AreaPassarPrograma;
 import br.gov.caixa.psc.connector.model.types.FormaChamarPrograma;
+import br.gov.caixa.sicpf.dto.AbstractBook;
 import br.gov.caixa.sicpf.exception.DAOException;
-import br.gov.caixa.sicpf.model.dto.AbstractBook;
 
 public final class CicsDAO implements IDao {
 

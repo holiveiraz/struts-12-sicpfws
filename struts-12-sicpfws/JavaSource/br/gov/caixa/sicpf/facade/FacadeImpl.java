@@ -1,8 +1,8 @@
-package br.gov.caixa.sicpf.model.facade;
+package br.gov.caixa.sicpf.facade;
 
-import br.gov.caixa.sicpf.model.dao.CicsDaoFactory;
-import br.gov.caixa.sicpf.model.dao.IDao;
-import br.gov.caixa.sicpf.model.dto.AbstractBook;
+import br.gov.caixa.sicpf.dao.CicsDaoFactory;
+import br.gov.caixa.sicpf.dao.IDao;
+import br.gov.caixa.sicpf.dto.AbstractBook;
 
 public class FacadeImpl implements IFacade {
 
