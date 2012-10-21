@@ -1,4 +1,4 @@
-package br.gov.caixa.sicpf.model.dto;
+package br.gov.caixa.sicpf.dto;
 
 import java.io.Serializable;
 import java.util.Arrays;
